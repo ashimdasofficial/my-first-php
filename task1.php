@@ -6,9 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo "<h1>This is Ashim Das</h1>
-                <h2>I am from Natore</h2>"
-    ?>
+    <h1>Hello This Is Ashim Das</h1>
+    <h2>I Am Form Natore</h2>
 </body>
 </html>
