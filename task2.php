@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is php develop code</h1>
+    <?php
+
+        echo "<h1> Hay This is May Last php </h>"
+    ?>
 </body>
 </html>
