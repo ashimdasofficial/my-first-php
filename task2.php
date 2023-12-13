@@ -8,8 +8,15 @@
 <body>
     <?php
 
-        echo "<h1> Hay This is May Last php </h1>";
+        $firstName = "Ashim Kumar";
+        $lastName = "Das";
+        $distName = "Natore"
     ?>
+
+
+        <h1> My Frist Name is <?php echo $firstName; ?>; </h1>
+            <h1>My Last Name is <?php echo $lastName;?></h1>
+                <h2> My Distract Name is <?php echo $distName;?></h2>
     
 </body>
 </html>
