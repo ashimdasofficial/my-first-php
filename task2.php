@@ -8,7 +8,8 @@
 <body>
     <?php
 
-        echo "<h1> Hay This is May Last php </h>"
+        echo "<h1> Hay This is May Last php </h1>";
     ?>
+    
 </body>
 </html>
