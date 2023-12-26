@@ -6,10 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Natore is my home country</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit voluptates quis numquam laudantium praesentium cupiditate expedita quam a, nobis fuga reprehenderit officia eos reiciendis quibusdam ea omnis eveniet neque.</p>
-    <?php
-        echo  "<h1> Hey! This Ashim Das </h1>"
-    ?>
+   <?php 
+   
+   $name = "Ashim Kumar Das";
+
+   echo $name ."<br/>";
+
+   $age = "35 Year";
+
+   echo $age ."<br/>"; 
+
+    echo var_dump($age);  
+
+    $city = " Natore";
+    $country = "Bangladesh";
+    echo strtolower($name)
+
+   ?>
 </body>
 </html>

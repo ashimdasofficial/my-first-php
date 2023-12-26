@@ -7,23 +7,32 @@
 </head>
 <body>
 
-<?php
+   <?php
+        $firstName = "Ashim";
+        $lastName  = "Kumar Das";
+        echo $firstName ." ". $lastName;
+        echo "<br>";
+   ?> 
 
-// Some variable code inject here
 
-    $firstName = "Ashim Kumar";
-    $lastName = "Das";
-    $distName = "Natore"
-?>
+   <?php 
+   
+    $message = "You got a confirmation message for our company .<br>";
+    echo strlen($message);
 
- 
- 
+    echo "<br>";
 
-    <h1> My Frist Name is <?php echo $firstName; ?>; </h1>
-        <h1>My Last Name is <?php echo $lastName;?></h1>
-    <h2> My Distract Name is <?php echo $distName;?></h2> 
+   ?>
 
+    <?php
+    echo substr("PHP is powerful",5);
     
-    
+    echo "<br>";
+    ?>
+
+    <?php
+        echo strtoupper("hello ashim das.");
+    ?> 
+
 </body>
 </html>

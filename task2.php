@@ -8,15 +8,52 @@
 <body>
     <?php
 
-        $firstName = "Ashim Kumar";
-        $lastName = "Das";
-        $distName = "Natore"
+        $name = "Ashim Kumar Das";
+
+        echo $name . "<br/>";
+
+        $age = "35" . "<br/>";;
+
+        echo $age;
     ?>
 
+    <?php
+        $Pl = "01734-175199" . "</br>" ;
+        echo $Pl;
 
-        <h1> My Frist Name is <?php echo $firstName; ?>; </h1>
-            <h1>My Last Name is <?php echo $lastName;?></h1>
-                <h2> My Distract Name is <?php echo $distName;?></h2>
+    
+        $a=true;  
+        echo $a;  
+        echo var_dump($a); 
+    ?>  
+
+    <?php
+
+        $name = "Mustafa";
+        echo "The name is $name" ."</br>";
+        echo 'The name is $name' ."</br>"; 
+        
+        $price = "100.59";
+        echo $price;
+
+        $color = array("white","black","read"); 
+        echo $color[0] ." ". $color[1];
+        echo "<br>"
+    ?>
+    <?php
+        $x = null;
+        var_dump($x);
+        echo "<br>"
+
+    ?>
+
+    <?php
+       $num = "1268"
+
+    ?>
+    
+
+        
     
 </body>
 </html>
